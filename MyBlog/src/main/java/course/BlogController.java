@@ -403,6 +403,55 @@ public class BlogController {
             }
         });
 
+        // Show the posts filed under a certain tag
+        get(new FreemarkerBasedRoute("/tag/:thetag", "blog_template.ftl") {
+            @Override
+            protected void doHandle(Request request, Response response, Writer writer)
+                    throws IOException, TemplateException {
+
+                String username = sessionDAO.findUserNameBySessionId(getSessionCookie(request));
+                SimpleHash root = new SimpleHash();
+
+                String tag = StringEscapeUtils.escapeHtml4(request.params(":thetag"));
+                List<Document> posts = blogPostDAO.findByTagDateDescending(tag);
+
+                root.put("myposts", posts);
+                if (username != null) {
+                    root.put("username", username);
+                }
+
+                template.process(root, writer);
+            }
+        });
+
+        // will allow a user to click Like on a post
+        post(new FreemarkerBasedRoute("/like", "entry_template.ftl") {
+            @Override
+            protected void doHandle(Request request, Response response, Writer writer) throws IOException, TemplateException {
+
+                String permalink = request.queryParams("permalink");
+                String commentOrdinalStr = request.queryParams("comment_ordinal");
+
+
+                // look up the post in question
+
+                int ordinal = Integer.parseInt(commentOrdinalStr);
+
+                // TODO: check return or have checkSession throw
+                String username = sessionDAO.findUserNameBySessionId(getSessionCookie(request));
+                Document post = blogPostDAO.findByPermalink(permalink);
+
+                //  if post not found, redirect to post not found error
+                if (post == null) {
+                    response.redirect("/post_not_found");
+                }
+                else {
+                    blogPostDAO.likePost(permalink, ordinal);
+
+                    response.redirect("/post/" + permalink);
+                }
+            }
+        });
 
         // tells the user that the URL is dead
         get(new FreemarkerBasedRoute("/post_not_found", "post_not_found.ftl") {

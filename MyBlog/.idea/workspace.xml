@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df3bfeef-f3cd-4db0-b68c-babfa893c1a8" name="Default" comment="" />
+    <list default="true" id="df3bfeef-f3cd-4db0-b68c-babfa893c1a8" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Mitya\work\JavaCources\MongoDBfJD\BlogMongoDB\MyBlog\.idea\libraries\Maven__org_mongodb_bson_3_0_0_rc0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Mitya\work\JavaCources\MongoDBfJD\BlogMongoDB\MyBlog\.idea\libraries\Maven__org_mongodb_mongodb_driver_3_0_0_rc0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\Mitya\work\JavaCources\MongoDBfJD\BlogMongoDB\MyBlog\.idea\libraries\Maven__org_mongodb_mongodb_driver_core_3_0_0_rc0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" afterPath="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyBlog.iml" afterPath="$PROJECT_DIR$/MyBlog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/course/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="M101J.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,28 +78,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="blog_template.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <file leaf-file-name="SessionDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="-12.423077" vertical-offset="408" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error_template.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ftl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="918">
+            <state line="54" column="52" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -94,7 +90,7 @@
       <file leaf-file-name="signup.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1377">
+            <state line="32" column="20" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -103,7 +99,16 @@
       <file leaf-file-name="welcome.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="170" selection-end="170" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578">
+            <state line="24" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog_template.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="10" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -112,25 +117,34 @@
       <file leaf-file-name="newpost_template.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="26" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="post_not_found.ftl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="49" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="833">
+            <state line="14" column="36" selection-start="584" selection-end="584" vertical-scroll-proportion="0.3899614" vertical-offset="36" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry_template.ftl" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="entry_template.ftl" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+            <state line="44" column="16" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -139,7 +153,7 @@
       <file leaf-file-name="UserDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="13" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1479">
+            <state line="86" column="9" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -148,10 +162,8 @@
       <file leaf-file-name="BlogPostDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="34" column="20" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1938">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,11 +178,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/course/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/course/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -182,13 +195,41 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1272" />
-    <option name="y" value="88" />
-    <option name="width" value="1552" />
-    <option name="height" value="842" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="MyBlog" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="MyBlog" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -199,7 +240,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -215,7 +256,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -288,6 +328,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +340,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
@@ -329,6 +370,12 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -338,10 +385,26 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -367,19 +430,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -408,6 +458,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -495,6 +558,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="df3bfeef-f3cd-4db0-b68c-babfa893c1a8" name="Default" comment="" />
@@ -504,15 +584,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="88" width="1552" height="842" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32897863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -521,18 +600,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938388" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20682731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33479533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20678514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3337292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33040935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -556,123 +636,110 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="0" selection-start="13876" selection-end="13876" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="3400">
-          <folding>
-            <element signature="class#4289:5397" expanded="true" />
-            <element signature="class#7314:8010" expanded="true" />
-            <element signature="class#8030:8803" expanded="true" />
-            <element signature="class#8888:9612" expanded="true" />
-            <element signature="class#9675:11474" expanded="true" />
-            <element signature="e#10596#10612#0" expanded="true" />
-            <element signature="class#11494:12267" expanded="true" />
-            <element signature="class#12321:13969" expanded="true" />
-            <element signature="class#14023:14430" expanded="true" />
-            <element signature="class#14615:16064" expanded="true" />
-            <element signature="class#16132:16468" expanded="true" />
-            <element signature="class#16537:17369" expanded="true" />
-            <element signature="class#17433:17841" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="0" selection-start="13876" selection-end="13876" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="3400">
-          <folding>
-            <element signature="class#4289:5397" expanded="true" />
-            <element signature="class#7314:8010" expanded="true" />
-            <element signature="class#8030:8803" expanded="true" />
-            <element signature="class#8888:9612" expanded="true" />
-            <element signature="class#9675:11474" expanded="true" />
-            <element signature="e#10596#10612#0" expanded="true" />
-            <element signature="class#11494:12267" expanded="true" />
-            <element signature="class#12321:13969" expanded="true" />
-            <element signature="class#14023:14430" expanded="true" />
-            <element signature="class#14615:16064" expanded="true" />
-            <element signature="class#16132:16468" expanded="true" />
-            <element signature="class#16537:17369" expanded="true" />
-            <element signature="class#17433:17841" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="49" selection-start="1376" selection-end="1376" vertical-scroll-proportion="0.0" vertical-offset="244" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="13" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="40" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="7922">
-          <folding>
-            <element signature="class#4289:5397" expanded="true" />
-            <element signature="class#7314:8010" expanded="true" />
-            <element signature="class#8030:8803" expanded="true" />
-            <element signature="class#8888:9612" expanded="true" />
-            <element signature="class#9675:11474" expanded="true" />
-            <element signature="e#10596#10612#0" expanded="true" />
-            <element signature="class#11494:12267" expanded="true" />
-            <element signature="class#12321:13969" expanded="true" />
-            <element signature="class#14023:14430" expanded="true" />
-            <element signature="class#14615:16064" expanded="true" />
-            <element signature="class#16132:16468" expanded="true" />
-            <element signature="class#16537:17369" expanded="true" />
-            <element signature="class#17433:17841" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="-12.423077" vertical-offset="408" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="918">
+        <state line="54" column="52" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1377">
+        <state line="32" column="20" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="170" selection-end="170" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578">
+        <state line="24" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="47" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="9" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="20" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="5" selection-start="2460" selection-end="2460" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9367">
+          <folding>
+            <element signature="class#16985:18067" expanded="true" />
+            <element signature="class#18134:18470" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
@@ -693,7 +760,205 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+        <state line="29" column="4" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="49" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="13" selection-start="2446" selection-end="2446" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="391" column="0" selection-start="13876" selection-end="13876" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="3400">
+          <folding>
+            <element signature="class#16985:18067" expanded="true" />
+            <element signature="class#18134:18470" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="391" column="0" selection-start="13876" selection-end="13876" vertical-scroll-proportion="0.0" vertical-offset="3400" max-vertical-offset="3400">
+          <folding>
+            <element signature="class#16985:18067" expanded="true" />
+            <element signature="class#18134:18470" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="20" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="17" selection-start="2916" selection-end="2916" vertical-scroll-proportion="0.3199498" vertical-offset="646" max-vertical-offset="4250">
+          <folding>
+            <element signature="class#16985:18067" expanded="true" />
+            <element signature="class#18134:18470" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="52" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.0" vertical-offset="244" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="9" selection-start="3160" selection-end="3160" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="10" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.26459143" vertical-offset="0" max-vertical-offset="771">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="15" selection-start="786" selection-end="786" vertical-scroll-proportion="-20.192308" vertical-offset="121" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="584" selection-end="584" vertical-scroll-proportion="0.3899614" vertical-offset="36" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>

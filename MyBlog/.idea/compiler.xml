@@ -27,6 +27,9 @@
         <module name="MyBlog" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyBlog" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

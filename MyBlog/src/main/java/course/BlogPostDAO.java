@@ -23,6 +23,15 @@ public class BlogPostDAO {
         Document post;
         post = postsCollection.find().filter(Filters.eq("permalink", permalink)).first();
 
+        // fix up if a post has no likes
+        if (post != null) {
+            List<Document> comments = (List<Document>) post.get("comments");
+            for (Document comment : comments) {
+                if (!comment.containsKey("num_likes")) {
+                    comment.put("num_likes", 0);
+                }
+            }
+        }
         return post;
     }
 
@@ -32,11 +41,17 @@ public class BlogPostDAO {
 
         // Return a list of DBObjects, each one a post from the posts collection
         List<Document> posts;
-        posts = postsCollection.find().sort(Sorts.descending("date")).limit(10).into(new ArrayList<Document>());
+        posts = postsCollection.find().sort(Sorts.descending("date")).limit(limit).into(new ArrayList<Document>());
 
         return posts;
     }
 
+    public List<Document> findByTagDateDescending(final String tag) {
+        return postsCollection.find(Filters.eq("tags", tag))
+                .sort(Sorts.descending("date"))
+                .limit(10)
+                .into(new ArrayList<Document>());
+    }
 
     public String addPost(String title, String body, List tags, String username) {
 
@@ -75,6 +90,19 @@ public class BlogPostDAO {
 
         postsCollection.updateOne(Filters.eq("permalink", permalink), new Document("$push", new Document("comments",doc)));
         System.out.println();
+    }
+
+    public void likePost(final String permalink, final int ordinal) {
+       Document post =  findByPermalink(permalink);
+
+        List comments = (ArrayList) post.get("comments");
+
+        Document comment = (Document) comments.get(ordinal);
+
+        Integer numOfLikes = (Integer) comment.get("num_likes");
+
+        postsCollection.updateOne(Filters.eq("permalink", permalink),
+                new Document("$set", new Document("comments."+ordinal+".num_likes", numOfLikes+1)));
     }
 }
 

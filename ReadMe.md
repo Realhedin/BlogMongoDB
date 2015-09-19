@@ -6,16 +6,16 @@ You can rely on this app like a basis for your improvements.
 
 
 <b>Used technologies:</b>
-MongoDB (Database),
-Spark (Micro web framework),
-Freemarker (template language framework).
+<br>MongoDB (Database),
+<br>Spark (Micro web framework),
+<br>Freemarker (template language framework).
 
 <b>To start application:</b>
-1) run run.sh script
- or
-2) run BlogController.java file from IDE
-After start you can open see application in your browser under <a href="http://localhost:8082">MyBlog</a>
+<br>1) run run.sh script
+<br>   or
+<br>2) run BlogController.java file from IDE.
+<br>After start you can open see application in your browser under <a href="http://localhost:8082">http://localhost:8082</a>
 
 
 This project is made during course <i>M101J: MONGODB FOR JAVA DEVELOPERS</i>
- provided by <a href="university.mongodb.com">university.mongodb.com</a>
+ <br>provided by <a href="university.mongodb.com">university.mongodb.com</a>
